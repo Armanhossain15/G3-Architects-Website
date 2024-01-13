@@ -163,13 +163,26 @@ strong {
 
 /* sponsers */
 .sponser{
-    padding-top: 180px;
+    padding: 180px 0 130px;
+
 }
 .sponser-text{
     text-align: center;
 }
 .sponser-text p{
     padding: 0 400px;
+}
+.sponsors-img{
+    width: 84%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.sponsors-img img{
+    width: 150px;
+    height: auto;
 }
 /* sponsers */
 
