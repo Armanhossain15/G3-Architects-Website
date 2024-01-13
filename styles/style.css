@@ -95,7 +95,7 @@ p {
     margin: 5px;
 }
 
-.feature-text h1{
+.feature-text h1 {
     font-size: 3em;
     color: #727272;
     font-weight: 500;
@@ -111,10 +111,12 @@ strong {
     color: #FF900E;
     font-weight: 700;
 }
+
 .feature-text button {
-    margin:0;
+    margin: 0;
     margin-top: 18px;
-    }
+}
+
 /* feature */
 /* facts */
 .facts {
@@ -123,7 +125,8 @@ strong {
     padding: 80px 0;
 }
 
-.fact-text h1, .sponser-text h1 {
+.fact-text h1,
+.sponser-text h1, .sponser-text h1 {
     color: #131313;
     font-size: 3em;
     font-weight: 700;
@@ -143,17 +146,19 @@ strong {
     padding: 30px 30px;
 }
 
-.facts-card .card h3{
+.facts-card .card h3 {
     color: #727272;
     font-size: 1.2em;
     font-weight: 600;
 }
-.facts-card .card h1{
+
+.facts-card .card h1 {
     color: #424242;
     font-size: 3em;
     font-weight: 600;
 }
-.facts-card .card img{
+
+.facts-card .card img {
     width: 45px;
     height: auto;
     margin-bottom: 5px;
@@ -162,17 +167,20 @@ strong {
 /* facts */
 
 /* sponsers */
-.sponser{
+.sponser {
     padding: 180px 0 130px;
 
 }
-.sponser-text{
+
+.sponser-text {
     text-align: center;
 }
-.sponser-text p{
+
+.sponser-text p {
     padding: 0 400px;
 }
-.sponsors-img{
+
+.sponsors-img {
     width: 84%;
     height: auto;
     margin: auto;
@@ -180,123 +188,184 @@ strong {
     justify-content: space-around;
     padding-top: 50px;
 }
-.sponsors-img img{
+
+.sponsors-img img {
     width: 150px;
     height: auto;
 }
+
+footer {
+    text-align: center;
+    padding: 40px 0;
+    border-radius: 8px;
+    background: #FFF4E7;
+}
+
 /* sponsers */
 
 /* Media Query for Mobile */
-@media screen and (max-width: 570px){
+@media screen and (max-width: 570px) {
     .logo h1 {
         font-size: 2em;
     }
-    .navbar, .flex{
+
+    .navbar,
+    .flex,
+    .sponsors-img {
         flex-direction: column;
     }
-    .menu{
+
+    .menu {
         padding-top: 15px;
     }
+
     .navbar ul li a {
         margin-right: 14px;
     }
-    .menu ul li:last-child{
+
+    .menu ul li:last-child {
         margin-right: 0;
     }
+
     .banner {
         padding: 50px 0;
     }
+
     .banner-text {
         width: 95%;
     }
+
     .banner-text h1 {
         font-size: 3em;
         font-weight: 600;
         margin-bottom: 14px;
     }
-    .banner-text button, .feature-text button {
+
+    .banner-text button,
+    .feature-text button {
         padding: 17px 24px;
         margin: 23px 0 39px;
-        }     
+    }
+
+    /* feature */
+    .feature {
+        width: 90%;
+        padding: 0;
+        padding-top: 20px;
+    }
+
+    .feature-text h1,
+    .fact-text h1, .sponser-text h1 {
+        font-size: 2.2em;
+    }
+
+    /* feature */
+    /* facts */
+    .facts {
+        padding: 10px;
+    }
+
+    .facts-card .card {
+        margin-bottom: 30px;
+    }
+    .facts-card {
+        margin-top: 30px;
+      }
+    .sponser {
+        padding: 80px 0 30px;
+    }
+    .sponser-text h1{
+
+    }
+    .sponser-text p {
+        padding: 0 2.3em;
+    } 
+    .sponsors-img {
+        align-items: center;
+    }
+    .sponsors-img img {
+        margin-bottom: 40px;
+    }
+    footer{
+        padding: 20px 40px;
         
-        /* feature */
-        .feature {
-            width: 90%;
-            padding: 0;
-            padding-top: 20px;
-        }
-        .feature-text h1, .fact-text h1 {
-            font-size: 2.2em;
-        }
-        /* feature */
-        /* facts */
-        .facts{
-            padding:10px;
-        }
-        .facts-card .card {
-            margin-bottom: 30px;
-        }
-        
-        /* facts */
+    }
+    /* facts */
 }
 
 
 /* media query for tablet device */
-@media screen and (min-width:571px) and (max-width:1090px){
+@media screen and (min-width:571px) and (max-width:1090px) {
     .logo h1 {
         font-size: 1.7em;
     }
-    .navbar, .flex{
+
+    .navbar,
+    .flex {
         flex-direction: column;
     }
-    .menu{
+
+    .menu {
         padding-top: 15px;
     }
+
     .navbar ul li a {
         margin-right: 14px;
     }
-    .menu ul li:last-child{
+
+    .menu ul li:last-child {
         margin-right: 0;
     }
+
     .banner {
         padding: 50px 0;
     }
-    .banner-text{
+
+    .banner-text {
         width: 60%;
     }
+
     .banner-text h1 {
         font-size: 3em;
         font-weight: 600;
         margin-bottom: 14px;
     }
-    .banner-text button, .feature-text button {
+
+    .banner-text button,
+    .feature-text button {
         padding: 17px 24px;
         margin: 23px 0 39px;
-        }     
-        /* feature */
-        .feature {
-            width: 85%;
-            padding: 0;
-            padding-top: 20px;
-        }
-        .feature-text h1, .fact-text h1 {
-            font-size: 2.2em;
-        }
-        /* feature */
-        /* facts */
-        .facts{
-            padding:10px;
-        }
-        .facts-card{
-            display: grid;
-            grid-template-columns: repeat(2,1fr);
-            grid-template-rows: repeat(2,1fr);
-            margin-top: 20px;
-        }
-        .facts-card .card {
-            margin-bottom: 30px;
-            margin-right: 20px;
-        }
-        
-        /* facts */
+    }
+
+    /* feature */
+    .feature {
+        width: 85%;
+        padding: 0;
+        padding-top: 20px;
+    }
+
+    .feature-text h1,
+    .fact-text h1 {
+        font-size: 2.2em;
+    }
+
+    /* feature */
+    /* facts */
+    .facts {
+        padding: 10px;
+    }
+
+    .facts-card {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        margin-top: 20px;
+    }
+
+    .facts-card .card {
+        margin-bottom: 30px;
+        margin-right: 20px;
+    }
+
+    /* facts */
 }
