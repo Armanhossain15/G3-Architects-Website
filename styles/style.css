@@ -118,6 +118,43 @@ strong {
 }
 
 /* feature */
+/* feature you love and enjoy */
+.loveandenjoy {
+    width: 84%;
+    margin: auto;
+    gap: 178px;
+}
+.loveandenjoy-text h1{
+    border-left: 5px solid #FF900E;
+    padding-left: 25px;
+}
+.loveandenjoy-text {
+    width: 75%;
+}
+
+.loveandenjoy-text .card {
+    padding: 30px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    margin-top: 30px;
+}
+
+.loveandenjoy-text .card h5 {
+    color: #131313;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.loveandenjoy-img {
+    width: 67%;
+}
+
+.loveandenjoy-img img {
+    width: 100%;
+}
+
+/* feature you love and enjoy */
 /* facts */
 .facts {
     width: 84%;
@@ -126,7 +163,8 @@ strong {
 }
 
 .fact-text h1,
-.sponser-text h1, .sponser-text h1 {
+.sponser-text h1,
+.sponser-text h1 {
     color: #131313;
     font-size: 3em;
     font-weight: 700;
@@ -165,6 +203,9 @@ strong {
 }
 
 /* facts */
+.loveandenjoy-text {
+    width: 100%;
+}
 
 /* sponsers */
 .sponser {
@@ -211,7 +252,7 @@ footer {
 
     .navbar,
     .flex,
-    .sponsors-img {
+    .sponsors-img, .loveandenjoy {
         flex-direction: column;
     }
 
@@ -255,11 +296,17 @@ footer {
     }
 
     .feature-text h1,
-    .fact-text h1, .sponser-text h1 {
+    .fact-text h1,
+    .sponser-text h1 {
         font-size: 2.2em;
     }
 
     /* feature */
+    .loveandenjoy-img {
+        width: 100%;
+        margin-top: -100px;
+        margin-bottom: 40px;
+      }
     /* facts */
     .facts {
         padding: 10px;
@@ -268,28 +315,34 @@ footer {
     .facts-card .card {
         margin-bottom: 30px;
     }
+
     .facts-card {
         margin-top: 30px;
-      }
+    }
+
     .sponser {
         padding: 80px 0 30px;
     }
-    .sponser-text h1{
 
-    }
+    .sponser-text h1 {}
+
     .sponser-text p {
         padding: 0 2.3em;
-    } 
+    }
+
     .sponsors-img {
         align-items: center;
     }
+
     .sponsors-img img {
         margin-bottom: 40px;
     }
-    footer{
+
+    footer {
         padding: 20px 40px;
-        
+
     }
+
     /* facts */
 }
 
