@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+/* navbar */
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    background-color: rgba(255, 144, 14, 0.10);
+    align-items: center;
+}
+.logo h1{
+    color: #131313;
+    font-size: 3em;
+}
+.navbar ul li{
+    display: inline-block;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 500;
+    color: #424242;
+    margin-right: 30px;
+}
+/* navbar */
+/* banner */
+.banner{
+    background-color: rgba(255, 144, 14, 0.10);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 200px 0;
+}
+.banner-text{
+    width: 50%;
+    margin: 0 auto;
+}
+.banner-text h1{
+    margin-bottom: 14px;
+}
+.banner-text p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+}
+/* banner */
