@@ -124,10 +124,12 @@ strong {
     margin: auto;
     gap: 178px;
 }
-.loveandenjoy-text h1{
+
+.loveandenjoy-text h1 {
     border-left: 5px solid #FF900E;
     padding-left: 25px;
 }
+
 .loveandenjoy-text {
     width: 75%;
 }
@@ -148,6 +150,29 @@ strong {
 
 .loveandenjoy-img {
     width: 67%;
+}
+
+.experience {
+    background: #FF900E;
+    color: white;
+    width: max-content;
+    padding: 28px 34px;
+    text-align: center;
+    border-radius: 8px;
+    position: relative;
+    top: -70px;
+    left: -115px;
+}
+
+.experience h1 {
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.experience p {
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
 }
 
 .loveandenjoy-img img {
@@ -252,7 +277,8 @@ footer {
 
     .navbar,
     .flex,
-    .sponsors-img, .loveandenjoy {
+    .sponsors-img,
+    .loveandenjoy {
         flex-direction: column;
     }
 
@@ -288,6 +314,12 @@ footer {
         margin: 23px 0 39px;
     }
 
+    .experience {
+        position: unset;
+        padding: 28px 60px;
+        margin-top: 13px;
+    }
+
     /* feature */
     .feature {
         width: 90%;
@@ -306,7 +338,8 @@ footer {
         width: 100%;
         margin-top: -100px;
         margin-bottom: 40px;
-      }
+    }
+
     /* facts */
     .facts {
         padding: 10px;
@@ -354,7 +387,7 @@ footer {
     }
 
     .navbar,
-    .flex {
+    .flex,.sponsors-img {
         flex-direction: column;
     }
 
@@ -389,7 +422,19 @@ footer {
         padding: 17px 24px;
         margin: 23px 0 39px;
     }
+    .loveandenjoy-img {
+        width: 100%;
+        margin-top: -100px;
+        margin-bottom: 40px;
+       
+    }
 
+    .experience {
+        
+        position: unset;
+        padding: 28px 120px;
+        margin-top: 13px;
+    }
     /* feature */
     .feature {
         width: 85%;
@@ -419,6 +464,15 @@ footer {
         margin-bottom: 30px;
         margin-right: 20px;
     }
+    .sponser-text p {
+        padding: 0 2.3em;
+    }
+    .sponsors-img {
+        align-items: center;
+    }
 
+    .sponsors-img img {
+        margin-bottom: 40px;
+    }
     /* facts */
 }
